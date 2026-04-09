@@ -47,7 +47,7 @@ if ! command -v docker >/dev/null 2>&1; then
     exit 1
 fi
 
-DOCKER_BUILDKIT=0 docker build \
+docker build \
   -f Dockerfile \
   -t "${DOCKER_IMAGE}:${BUILD_NUMBER}" \
   -t "${DOCKER_IMAGE}:latest" \
