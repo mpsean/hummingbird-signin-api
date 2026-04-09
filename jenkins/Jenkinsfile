@@ -63,6 +63,7 @@ sh ./jenkins/scripts/deliver.sh
 
     post {
         always {
+            sh 'docker system prune -f --volumes'
             deleteDir()
         }
     }
