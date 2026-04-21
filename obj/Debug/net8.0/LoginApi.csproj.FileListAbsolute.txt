@@ -5,7 +5,6 @@
 /Users/mpsc/Maipro/06_Programming/Senior/Signin-API/login-api-latest2/login-api/backend/bin/Debug/net8.0/LoginApi.runtimeconfig.json
 /Users/mpsc/Maipro/06_Programming/Senior/Signin-API/login-api-latest2/login-api/backend/bin/Debug/net8.0/LoginApi.dll
 /Users/mpsc/Maipro/06_Programming/Senior/Signin-API/login-api-latest2/login-api/backend/bin/Debug/net8.0/LoginApi.pdb
-/Users/mpsc/Maipro/06_Programming/Senior/Signin-API/login-api-latest2/login-api/backend/bin/Debug/net8.0/BCrypt.Net-Next.dll
 /Users/mpsc/Maipro/06_Programming/Senior/Signin-API/login-api-latest2/login-api/backend/bin/Debug/net8.0/Humanizer.dll
 /Users/mpsc/Maipro/06_Programming/Senior/Signin-API/login-api-latest2/login-api/backend/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/mpsc/Maipro/06_Programming/Senior/Signin-API/login-api-latest2/login-api/backend/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
@@ -114,3 +113,4 @@
 /Users/mpsc/Maipro/06_Programming/Senior/Signin-API/login-api-latest2/login-api/backend/obj/Debug/net8.0/LoginApi.pdb
 /Users/mpsc/Maipro/06_Programming/Senior/Signin-API/login-api-latest2/login-api/backend/obj/Debug/net8.0/LoginApi.genruntimeconfig.cache
 /Users/mpsc/Maipro/06_Programming/Senior/Signin-API/login-api-latest2/login-api/backend/obj/Debug/net8.0/ref/LoginApi.dll
+/Users/mpsc/Maipro/06_Programming/Senior/Signin-API/login-api-latest2/login-api/backend/obj/Debug/net8.0/LoginApi.sourcelink.json

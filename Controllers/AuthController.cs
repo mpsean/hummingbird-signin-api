@@ -71,6 +71,24 @@ public class AuthController(IAuthService authService, IJwtService jwtService, Ap
         return Ok(MapTenant(tenant));
     }
 
+    /// <summary>Update tenant frontendUrl</summary>
+    [HttpPatch("api/tenants/{slug}")]
+    [ProducesResponseType(typeof(TenantDto), 200)]
+    [ProducesResponseType(404)]
+    public async Task<IActionResult> UpdateTenant(string slug, [FromBody] UpdateTenantRequest request)
+    {
+        var tenant = await db.Tenants.FirstOrDefaultAsync(t => t.Slug == slug.ToLower());
+        if (tenant is null) return NotFound(new MessageResponse("Tenant not found."));
+
+        if (!string.IsNullOrWhiteSpace(request.FrontendUrl))
+            tenant.FrontendUrl = request.FrontendUrl.Trim();
+        if (!string.IsNullOrWhiteSpace(request.Name))
+            tenant.Name = request.Name.Trim();
+
+        await db.SaveChangesAsync();
+        return Ok(MapTenant(tenant));
+    }
+
     // ── Auth Endpoints ────────────────────────────────────────────────────────
 
     /// <summary>Register a new user under a tenant</summary>
