@@ -4,6 +4,11 @@ namespace LoginApi.DTOs;
 
 // ── Tenant ────────────────────────────────────────────────────────────────────
 
+public record UpdateTenantRequest(
+    string? Name,
+    string? FrontendUrl
+);
+
 public record CreateTenantRequest(
     [Required, MinLength(2), MaxLength(50)]  string Slug,
     [Required, MinLength(2), MaxLength(150)] string Name,

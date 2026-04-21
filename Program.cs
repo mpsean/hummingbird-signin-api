@@ -101,7 +101,7 @@ for (int attempt = 1; attempt <= maxRetries; attempt++)
             {
                 Slug        = "default",
                 Name        = "Default",
-                FrontendUrl = "http://localhost:3000",
+                FrontendUrl = "http://signin.hmmbird.xyz/dashboard",
                 IsActive    = true
             });
             await db.SaveChangesAsync();
