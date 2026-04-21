@@ -3023,19 +3023,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/pemapol/.nuget/packages/": {}
+    "/Users/mpsc/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/pemapol/Documents/GitHub/hummingbird-signin-api/LoginApi.csproj",
+      "projectUniqueName": "/Users/mpsc/Maipro/06_Programming/Senior/Signin-API/login-api-latest2/login-api/backend/LoginApi.csproj",
       "projectName": "LoginApi",
-      "projectPath": "/Users/pemapol/Documents/GitHub/hummingbird-signin-api/LoginApi.csproj",
-      "packagesPath": "/Users/pemapol/.nuget/packages/",
-      "outputPath": "/Users/pemapol/Documents/GitHub/hummingbird-signin-api/obj/",
+      "projectPath": "/Users/mpsc/Maipro/06_Programming/Senior/Signin-API/login-api-latest2/login-api/backend/LoginApi.csproj",
+      "packagesPath": "/Users/mpsc/.nuget/packages/",
+      "outputPath": "/Users/mpsc/Maipro/06_Programming/Senior/Signin-API/login-api-latest2/login-api/backend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/pemapol/.nuget/NuGet/NuGet.Config"
+        "/Users/mpsc/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -3059,7 +3059,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -3097,20 +3097,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.22, 8.0.22]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.osx-arm64",
-            "version": "[8.0.22, 8.0.22]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.22, 8.0.22]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -3119,7 +3105,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

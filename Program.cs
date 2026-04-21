@@ -42,7 +42,7 @@ builder.Services.AddControllers();
 // CORS
 builder.Services.AddCors(opts =>
     opts.AddDefaultPolicy(policy =>
-        policy.WithOrigins("http://localhost:5173", "http://localhost:3000", "http://localhost:5177", "http://localhost")
+        policy.WithOrigins("http://signin.hmmbird.xyz")
               .AllowAnyHeader()
               .AllowAnyMethod()));
 
